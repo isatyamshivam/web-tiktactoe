@@ -1,0 +1,120 @@
+/* Created by https://github.com/isatyamshivam */
+
+    
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+  }
+  body {
+    height: 100vh;
+    background: -o-linear-gradient(315deg, #8052ec, #d161ff);
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+  }
+  html {
+    font-size: 16px;
+  }
+  .box {
+    padding: 1.5em 0;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container {
+    width: 80vmin;
+    height: 80vmin;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2vmin;
+  }
+  .button-option {
+    background-color: #ffffff;
+    height: 25vmin;
+    width: 25vmin;
+    font-size: 12vmin;
+    border: none;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #d161ff;
+  }
+  #restart {
+    margin-top: 1em;
+    padding: 0.7em 0;
+    background-color: #0a0027;
+    color: #ffffff;
+    font-size: 1.3em;
+    border-radius: 5px;
+    border: none;
+  }
+  .popup.hide {
+    display: none;
+  }
+  .popup {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
+    background: -o-linear-gradient(315deg, #8052ec, #d161ff);
+
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+  }
+  #new-game {
+    padding: 0.5em 1em;
+    background-color: #0a0027;
+    color: #ffffff;
+    font-size: 0.6em;
+    border-radius: 0.2em;
+    border: none;
+  }
+  #message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+  }
+  a {
+    font-size: 1.3em;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.6em 0;
+    border-radius: 5px;
+    color: #d161ff;
+    letter-spacing: 0.05em;
+    margin-top: 1em;
+  }
